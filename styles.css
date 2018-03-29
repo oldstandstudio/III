@@ -1,0 +1,65 @@
+:root {
+	--bkg: #FFF8DC;
+	--notepad: #F5FFFA;
+	--text: #000000;
+}
+
+body {
+	background-color: var(--bkg);
+	margin: 2em 25%;
+}
+
+#notepad {
+	background-color: var(--notepad);
+	border-radius: 1.5em;
+	box-shadow: 2px 2px lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-bottom: 5em;
+	padding: 2em;
+	text-align: center;
+}
+
+h1 {
+	color: gray;
+}
+
+ol {
+	list-style-position: outside;
+	margin: auto;
+	padding: auto;
+}
+
+ol li {
+	color: var(--text);
+	padding-bottom: 1em;
+}
+
+#addtask {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+input {
+	border: .1px solid lightgray;
+	border-radius: 0;
+}
+
+input:focus {
+	border: 1px solid black;
+}
+
+button {
+	background-color: lightblue;
+	border: none;
+	font-size: 1em;
+	text-align: center;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-evenly;
+}
